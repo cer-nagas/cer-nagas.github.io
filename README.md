@@ -2,9 +2,9 @@
 
 ## Installation
 
-- nodejs `sudo apt-get install nodejs`
+- nodejs `sudo apt-get install nodejs`\
 Check by `node -v`, succeeded if returned a version number.
-- npm (Auto installed with nodejs)
+- npm (Auto installed with nodejs)\
 Check by `npm -v`, succeeded if returned a version number.
 
 ## Available Scripts
