@@ -42,5 +42,5 @@ Deploys the application to [https://cer-nagas.github.io/](https://cer-nagas.gith
 `npm install node-sass@4.14.1`
 IF it complained about python, install Python by `sudo apt-get install python`
 
-
+### Disclaimer
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
