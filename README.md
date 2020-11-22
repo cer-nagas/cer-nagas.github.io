@@ -68,3 +68,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### Troubleshooting
+- *Error: Node Sass version 5.0.0 is incompatible with ^4.0.0* 
+`npm uninstall node-sass`
+`npm install node-sass@4.14.1`
+IF it complained about python, install Python by `sudo apt-get install python`
