@@ -1,24 +1,27 @@
 import React from 'react';
 import '../styles/navbar.scss';
-import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap';
+import { Navbar, Nav, Container, Row, Col } from 'react-bootstrap';
 
 const MainNavbar=() => {
     return (
-        <Navbar bg="dark" expand="lg" sticky="top" variant="dark">
+        <Navbar className="navbar" bg="dark" expand="lg" sticky="top" variant="dark">
+        <Col>
             <Navbar.Brand href="#home">Nguyen Hiep</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="mr-auto">
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#link">Paintings</Nav.Link>
-                <Nav.Link href="#link">Wood</Nav.Link>
-                <Nav.Link href="#link">Stone</Nav.Link>
+        </Col>
+        <Col xs={10}>
+            <Navbar.Collapse id="collapse-navbar-nav">
+                <Nav className="navbar-nav justify-content-center">
+                    <Nav.Link href="#home">Home</Nav.Link>
+                    <Nav.Link href="#link">Paintings</Nav.Link>
+                    <Nav.Link href="#link">Wood</Nav.Link>
+                    <Nav.Link href="#link">Stone</Nav.Link>
+                    <Nav.Link href="#link">Contact</Nav.Link>
                 </Nav>
-                <Form inline>
-                <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                <Button variant="outline-success">Search</Button>
-                </Form>
             </Navbar.Collapse>
+        </Col>
+        <Col>
+            <Navbar.Toggle aria-controls="collapse-navbar-nav" />
+        </Col>
         </Navbar>
     );
 };
