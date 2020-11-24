@@ -1,6 +1,21 @@
 .navbar {
     opacity: 0.9;
 }
+
 .navbar-nav {
     width: 100%
+}
+
+.nav-link {
+    margin-right: 1.5rem;
+}
+
+.navbar-brand {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-align: center;
 }

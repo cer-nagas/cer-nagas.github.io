@@ -5,9 +5,9 @@ import { Navbar, Nav, Container, Row, Col } from 'react-bootstrap';
 const MainNavbar=() => {
     return (
         <Navbar className="navbar" bg="dark" expand="lg" sticky="top" variant="dark">
-            <Navbar.Brand href="#home">Nguyen Hiep</Navbar.Brand>
+            <Navbar.Brand href="#home">NGUYEN HIEP</Navbar.Brand>
             <Navbar.Collapse id="collapse-navbar-nav">
-                <Nav className="navbar-nav justify-content-center">
+                <Nav className="navbar-nav justify-content-end">
                     <Nav.Link href="#home">Home</Nav.Link>
                     <Nav.Link href="#link">Paintings</Nav.Link>
                     <Nav.Link href="#link">Sculptures</Nav.Link>
