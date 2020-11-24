@@ -19,6 +19,4 @@ const MainNavbar=() => {
         </Navbar>
     );
 };
-let name = "camzy"
-console.log(name)
 export default MainNavbar;
