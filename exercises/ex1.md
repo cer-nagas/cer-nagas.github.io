@@ -2,17 +2,7 @@
 
 Start point at v0.0.1 and solution can be found in branch exercise-1-solution
 
-# Ex 1.1: Sticky bar
-## Requirement
-Make the bar sticky on top
-## How-to-test (HTT)
-In Frontpage:
-1. Scroll down, verify that the navbar always stays on top of the view
-## Hint
-- Search "react bootstrap navbar sticky"
-- Relevant files: MainNavbar.js
-
-# Ex 1.2: Navbar background
+# Ex 1.1: Navbar background
 ## Requirement
 Change navbar background color to #777777
 ## How-to-test (HTT)
@@ -21,6 +11,16 @@ In Frontpage:
 ## Hint
 - Search "css background color"
 - Relevant files: navbar.scss
+
+# Ex 1.2: Sticky bar
+## Requirement
+Make the bar sticky on top
+## How-to-test (HTT)
+In Frontpage:
+1. Scroll down, verify that the navbar always stays on top of the view
+## Hint
+- Search "react bootstrap navbar sticky"
+- Relevant files: MainNavbar.js
 
 # Ex 1.3: Opacity
 ## Requirement
