@@ -1,10 +1,11 @@
 import React from 'react';
+import { Navbar, Nav } from 'react-bootstrap';
 import '../styles/navbar.scss';
-import { Navbar, Nav, Container, Row, Col } from 'react-bootstrap';
 
 const MainNavbar=() => {
+    // Exercise 1.1: Change line 8
     return (
-        <Navbar className="navbar" bg="dark" expand="lg" sticky="top" variant="dark">
+        <Navbar id="navbar-container" expand="lg" variant="dark">
             <Navbar.Brand href="#home">NGUYEN HIEP</Navbar.Brand>
             <Navbar.Collapse id="navbar-collapse">
                 <Nav className="navbar-nav justify-content-end">
