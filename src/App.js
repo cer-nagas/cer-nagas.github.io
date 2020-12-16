@@ -14,12 +14,27 @@ function App() {
       <div className="App">
         <MainNavbar />
         <Switch>
-          <Route path="/home" component={HomePage} exact/>
-          <Route path="/paintings" component={PaintingsPage}/>
-          <Route path="/sculptures" component={SculpturesPage}/>
-          <Route path="/books" component={BooksPage}/>
-          <Route path="/contact" component={ContactPage}/>
-          <Route component={Error}/>
+          <Route exact path="/">
+            <HomePage/>
+          </Route>
+          <Route path="/home">
+            <HomePage/>
+          </Route>
+          <Route path="/paintings">
+            <PaintingsPage/>
+          </Route>
+          <Route path="/sculptures">
+            <SculpturesPage/>
+          </Route>
+          <Route path="/books">
+            <BooksPage/>
+          </Route>
+          <Route path="/contact">
+            <ContactPage/>
+          </Route>
+          <Route>
+            <Error/>
+          </Route>
         </Switch>
       </div>
     </BrowserRouter>
