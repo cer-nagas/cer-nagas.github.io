@@ -1,5 +1,6 @@
 import React from 'react';
-import '../../styles/home.scss';
+import '../../styles/main.scss';
+import GalleryCarousel from '../carousel/GalleryCarousel';
 
 const HomePage = () => {
 
@@ -10,6 +11,9 @@ const HomePage = () => {
 
   return (
       <main className="content">
+          <div>
+          <GalleryCarousel />
+          </div>
           {data}
           {data}
           {data}

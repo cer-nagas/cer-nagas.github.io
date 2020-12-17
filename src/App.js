@@ -1,12 +1,12 @@
 import './App.css';
-import MainNavbar from './components/MainNavbar';
-import HomePage from './components/home/HomePage';
-import Error from './components/Error';
+import MainNavbar from './components/navbar/MainNavbar';
+import HomePage from './components/pages/HomePage';
+import ErrorPage from './components/pages/ErrorPage';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import SculpturesPage from './components/sculptures/SculpturesPage';
-import PaintingsPage from './components/paintings/PaintingsPage';
-import BooksPage from './components/books/BooksPage';
-import ContactPage from './components/contact/ContactPage';
+import SculpturesPage from './components/pages/SculpturesPage';
+import PaintingsPage from './components/pages/PaintingsPage';
+import BooksPage from './components/pages/BooksPage';
+import ContactPage from './components/pages/ContactPage';
 
 function App() {
   return (
@@ -33,7 +33,7 @@ function App() {
             <ContactPage/>
           </Route>
           <Route>
-            <Error/>
+            <ErrorPage/>
           </Route>
         </Switch>
       </div>
