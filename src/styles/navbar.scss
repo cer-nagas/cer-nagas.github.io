@@ -17,9 +17,11 @@ a.nav-link {
     justify-content: center;
     align-items: center;
     min-width: 100px;
-    
-    &:hover {background-color: #245269;
+    &:hover {
+        background-color: #245269;
+    }
 }
+
 
 .navbar-brand {
     margin-left: 20px;

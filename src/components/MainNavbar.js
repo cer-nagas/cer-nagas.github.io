@@ -3,7 +3,6 @@ import { Navbar, Nav } from 'react-bootstrap';
 import '../styles/navbar.scss';
 
 const MainNavbar=() => {
-    // Exercise 1.2: Change line 8
     return (
         <Navbar id="navbar-container" expand="lg" variant="dark" sticky="top">
             <Navbar.Brand href="#home">NGUYEN HIEP</Navbar.Brand>
