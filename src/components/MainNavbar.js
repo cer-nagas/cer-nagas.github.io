@@ -9,7 +9,7 @@ const MainNavbar=() => {
             <Navbar.Brand href="#home">NGUYEN HIEP</Navbar.Brand>
             <Navbar.Collapse id="navbar-collapse">
                 <Nav className="navbar-nav justify-content-end">
-                    <Nav.Link href="#home">Home</Nav.Link>
+                    <Nav.Link href="#home">Hommmmmmmmmmme</Nav.Link>
                     <Nav.Link href="#paintings">Paintings</Nav.Link>
                     <Nav.Link href="#sculptures">Sculptures</Nav.Link>
                     <Nav.Link href="#books">Books</Nav.Link>
