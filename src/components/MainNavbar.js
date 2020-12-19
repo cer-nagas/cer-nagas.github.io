@@ -3,9 +3,8 @@ import { Navbar, Nav } from 'react-bootstrap';
 import '../styles/navbar.scss';
 
 const MainNavbar=() => {
-    // Exercise 1.2: Change line 8
     return (
-        <Navbar id="navbar-container" expand="lg" variant="dark">
+        <Navbar sticky="top" id="navbar-container" expand="lg" variant="dark">
             <Navbar.Brand href="#home">NGUYEN HIEP</Navbar.Brand>
             <Navbar.Collapse id="navbar-collapse">
                 <Nav className="navbar-nav justify-content-end">
