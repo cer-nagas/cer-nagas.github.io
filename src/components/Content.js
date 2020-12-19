@@ -3,7 +3,7 @@ import '../styles/content.scss';
 const Content=() => {
   const data=(
     <div className="box">
-        <h2>My div content </h2>
+        <h2>My div sfasacontent </h2>
     </div>
   );
 return (
