@@ -28,6 +28,10 @@ A tab would automatically open in your default browser. If not, you can manually
 
 - Congratulations, your app is up and running (hopefully)!
 
+## Update from my repo (upstream)
+
+`git fetch upstream`
+`git merge upstream/main`
 
 ### Troubleshooting
 #### *Error: Node Sass version 5.0.0 is incompatible with ^4.0.0* 
